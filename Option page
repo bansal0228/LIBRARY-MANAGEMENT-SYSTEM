@@ -1,0 +1,105 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="experiment.aspx.cs" Inherits="experiment" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+         <style>
+     
+     .tbl
+     {
+         font-family:Verdana;
+         font-size:12px;
+     }
+     
+     .tr
+     {
+         background-color:#f0f0f0;
+         height:30px;
+     }
+     .txt
+     {
+          border:1px solid #000;
+          width:200px;
+          height:22px;
+     }
+     
+     .txt:hover
+     {
+         border:2px solid #0C4F9E;
+     }
+          
+   
+        .btn
+     {
+          border:1px solid #000;
+          width:100px;
+          height:22px;
+          padding:6px;
+     }
+     
+     .btn:hover
+     {
+         border:2px solid #0C4F9E;
+         background-color:#EB1C22;
+         color:#fff;
+         cursor:pointer;
+     }       
+          
+     
+     </style>
+</head>
+<body topmargin="0" leftmargin="0">
+<body>
+    <form id="form1" runat="server">
+     <table border="5" cellpadding="2" cellspacing="0" width="100%">
+        <tr class="headerRow">
+         <table width="100%" border="0" cellpadding="2" cellspacing="0">
+           <td class="imagecolor"> <img src="image/nitin.jpg" width=900px height=660px /></td>
+         <td align="left" class="options">
+           <fieldset style="width:250px; margin-left:15%; margin-right=20%; margin-top:0px; padding:8px; cellspacing="2" ">
+          <legend style="background-color:#EB1C22; color:#fff; padding:6px">Please Chose an option </legend>
+          <table cellpadding="4" cellspacing="0" width="80%" border="0"  align="center" class="tbl" >
+         
+        
+        <tr class="tr">
+        <td >
+        <a href="experiment.aspx"  class="btn"> New Student Registration </a>
+        </td>
+
+             <tr class="tr">
+        <td align="center">
+            <a href="issue.aspx"  class="btn"> Issue Book </a>
+
+             <tr class="tr">
+        <td align="center">
+             <a href="return.aspx"  class="btn"> Return Book </a>
+
+
+             <tr class="tr">
+        <td align="center">
+            <a href="searching.aspx"  class="btn"> Search </a>
+
+             <tr class="tr">
+        <td align="center">
+      <a href="logout.aspx"  class="btn"> Logout </a>
+
+
+
+
+
+
+
+
+
+
+
+        </td>
+    </table>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
