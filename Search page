@@ -1,0 +1,55 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+
+     
+</head>
+<body topmargin="0" leftmargin="0">
+    <form id="form1" runat="server">
+
+
++    <table border="10" cellpadding="2" cellspacing="0" width="100%">
+    
+        
+        <tr class="headerRow">
+            <td align="left" >
+                <table width="100%" border="5" cellpadding="0" cellspacing="2">
+                    <tr>
+                        <td class="headerRowLogo"><img src="image/book.jpg" width="550px" height="350px" /> </td>
+                        <td class="headerRowText"><h1> Library Management System</h1></td>
+                    </tr>
+                
+                </table>  
+            </td>
+        </tr>
+        <tr class="menuRow">
+            <td align="centre"  >
+             <fieldset style="width:350px; margin-left:15%; margin-right=20%; margin-top:0px; padding:8px; cellspacing="2" ">
+          <legend style="background-color:#EB1C22; color:#fff; padding:6px">Book Details </legend>
+          <table cellpadding="4" cellspacing="0" width="100%" border="0"  align="center" class="tbl" >
+          <td>Name of Book </td>
+        <td><asp:TextBox ID="TextBox1" runat="server" class="txt"></asp:TextBox></td>
+     <tr></tr>
+        <td>Book Author</td>
+        <td><asp:TextBox ID="TextBox2" runat="server" class="txt"></asp:TextBox></td>
+
+                
+            </td>
+           
+        </tr>
+     <tr >
+       <td></td>   <td align ="right" ><a href="searching.aspx" class="btn">Search</a></td>  
+          </tr> 
+    </table>
+
+
+    </form>
+</body>
+</html>
