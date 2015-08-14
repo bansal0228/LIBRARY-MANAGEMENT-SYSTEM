@@ -1,0 +1,106 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="experiment.aspx.cs" Inherits="experiment" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+       
+
+     
+      <script src="javascript/formvalidation.js" type="text/javascript"></script>
+     
+    <script language="javascript">
+
+         function validateForm() {
+          displayAlert()
+             
+
+         }
+     
+   
+           </script> 
+    
+          <style>
+     
+     .tbl
+     {
+         font-family:Verdana;
+         font-size:12px;
+     }
+     
+     .tr
+     {
+         background-color:#3EA99F;
+         height:40px;
+     }
+     .txt
+     {
+          border:1px solid #000;
+          width:200px;
+          height:22px;
+     }
+     
+     .txt:hover
+     {
+         border:3px solid #307D7E;
+     }
+          
+   
+        .btn
+     {
+          border:1px solid #000;
+          width:100px;
+          height:22px;
+          padding:6px;
+     }
+     
+     .btn:hover
+     {
+         border:2px solid #0C4F9E;
+         background-color:#EB1C22;
+         color:#0C4F9E;
+         cursor:pointer;
+     }       
+          
+     
+     </style>
+</head>
+<body topmargin="0" leftmargin="0">
+<body>
+    <form id="form1" runat="server">
+     <table border="1" cellpadding="2" cellspacing="0" width="100%">
+        <tr class="headerRow">
+         <table width="100%" border="0" cellpadding="0" cellspacing="0">
+           <td class="imagecolor"> <img src="image/new.jpg" width=800px height=670px /></td>
+         <td align="left" class ="new">
+          <fieldset style="width:380px; margin-left:15%; margin-right=20%; margin-top:0px; padding:8px; cellspacing="2" ">
+          <legend style="background-color:#000000; color:#fff; padding:6px">Welcome to Jain University Library</legend>
+           <fieldset style="width:280px; margin-left:15%; margin-right=20%; margin-top:0px; padding:8px; cellpadding="2" ">
+          <legend style="background-color:#000000; color:#fff; padding:6px">Login Details </legend>
+          <table cellpadding="5" cellspacing="0" width="100%" border="0"  align="center" class="tbl" >
+           <tr class="tr">
+          <td>Username </td>
+        <td><asp:TextBox ID="TextBox1" runat="server" class="txt"></asp:TextBox></td>
+         </td>
+          <tr class="tr">
+        <td>Password</td>
+        <td><asp:TextBox ID="TextBox2" runat="server" class="txt"></asp:TextBox></td>
+         
+       
+
+        <td>  </td>
+         
+           <tr class="tr">
+        <td align="justify">
+                 
+            <a href="options.aspx" class="btn">Register</a>
+         
+        </td>
+    </table>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
