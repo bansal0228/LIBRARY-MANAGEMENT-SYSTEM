@@ -1,0 +1,58 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="experiment.aspx.cs" Inherits="experiment" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body topmargin="0" leftmargin="0">
+<body>
+    <form id="form1" runat="server">
+     <table border="1" cellpadding="2" cellspacing="0" width="100%">
+        <tr class="headerRow">
+         <table width="100%" border="0" cellpadding="0" cellspacing="0">
+           <td class="imagecolor"> <img src="image/chance.jpg" width=900px height=650px /></td>
+         <td align="left" class="ex">
+           <fieldset style="width:250px; margin-left:15%; margin-right=20%; margin-top:0px; padding:8px; cellspacing="2" ">
+          <legend style="background-color:#EB1C22; color:#fff; padding:6px">Student  Details </legend>
+          <table cellpadding="4" cellspacing="0" width="80%" border="0"  align="center" class="tbl" >
+          <td>Name </td>
+        <td><asp:TextBox ID="TextBox1" runat="server" class="txt"></asp:TextBox></td>
+         </td>
+          <tr class="tr">
+        <td>Department</td>
+        <td><asp:TextBox ID="TextBox2" runat="server" class="txt"></asp:TextBox></td>
+         <tr class="tr">
+        <td>Semester </td>
+        <td><asp:DropDownList ID="DropDownList1" runat="server" class="txt">
+            <asp:ListItem>Select</asp:ListItem>
+            
+            <asp:ListItem>1</asp:ListItem>
+            <asp:ListItem>2</asp:ListItem>
+            <asp:ListItem>3 </asp:ListItem>
+            <asp:ListItem>4</asp:ListItem>
+            <asp:ListItem>5</asp:ListItem>
+            <asp:ListItem>6</asp:ListItem>
+            <asp:ListItem>7</asp:ListItem>
+            <asp:ListItem>8</asp:ListItem>
+            </asp:DropDownList> </td>
+             <tr class="tr">
+        <td>Contact no </td>
+        <td><asp:TextBox ID="TextBox4" runat="server" class="txt"></asp:TextBox></td>
+        </tr>
+        <tr class="tr">
+        
+        <td>  </td>
+         
+            
+        <td align="justify">
+           <a href="stureg.aspx"  class="btn"> Register </a>
+        </td>
+    </table>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
